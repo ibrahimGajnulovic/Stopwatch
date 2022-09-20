@@ -1,0 +1,52 @@
+body {
+    background: #1881e9a1;
+    color: white;
+    font-family: Poppins, sans-serif;
+}
+
+button {
+    font-family: inherit;
+    width: 100px;
+    height: 30px;
+    border: 3px soldi white;
+    border-radius: 50px;
+    background: #202020;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+#stopwatch {
+    font-size: 100px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+}
+
+#buttons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-51.6%, -45%);
+    margin-top: 50px;
+    color: #0505179a;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.btn:hover {
+    background-color: #050517;
+    color: #f38434;
+    transition: linear 200ms;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+
+#buttons li {
+    display: inline;
+    padding-left: 10px;
+}
